@@ -6,8 +6,9 @@ value_to_find.times do |index|
   if array [index] == value_to_find
   return index
  end
+end 
  return nil
-end
+ end
 
 def find_max_value(array)
   # Add your solution here
